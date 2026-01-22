@@ -8,10 +8,11 @@
 ---
 
 ## Скриншоты
-<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 23 54" src="https://github.com/user-attachments/assets/3a3fb2d9-548c-4d7b-b79d-60484f550140" />
-<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 49 15" src="https://github.com/user-attachments/assets/f06ecdab-35f6-4a50-b92d-ffc36f833ad4" />
-<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 49 57" src="https://github.com/user-attachments/assets/a81ec219-051e-44c4-9226-ee3c893fc1f2" />
-<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 24 42" src="https://github.com/user-attachments/assets/b00cc186-bd54-4bb1-9e58-10cc9ae13677" />
+
+<img width="218" height="445" alt="Screenshot 2026-01-22 at 16 52 12" src="https://github.com/user-attachments/assets/46d9ac4a-3c34-4af9-819a-04b305cc5a14" />
+<img width="219" height="443" alt="Screenshot 2026-01-22 at 16 52 48" src="https://github.com/user-attachments/assets/d12c9823-f95d-4341-bcb7-dfef47ffa7a4" />
+<img width="217" height="443" alt="Screenshot 2026-01-22 at 16 53 18" src="https://github.com/user-attachments/assets/0dfc1931-0709-4122-8e5d-e9ac376145c2" />
+<img width="215" height="445" alt="Screenshot 2026-01-22 at 16 53 40" src="https://github.com/user-attachments/assets/2997f39c-559d-4fd0-a049-676f444a1184" />
 
 
 ## Архитектура
