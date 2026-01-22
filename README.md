@@ -8,8 +8,10 @@
 ---
 
 ## Скриншоты
-<img width="233" height="454" alt="Screenshot 2026-01-22 at 16 23 54" src="https://github.com/user-attachments/assets/3a3fb2d9-548c-4d7b-b79d-60484f550140" />
-<img width="226" height="451" alt="Screenshot 2026-01-22 at 16 24 42" src="https://github.com/user-attachments/assets/b00cc186-bd54-4bb1-9e58-10cc9ae13677" />
+<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 23 54" src="https://github.com/user-attachments/assets/3a3fb2d9-548c-4d7b-b79d-60484f550140" />
+<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 49 15" src="https://github.com/user-attachments/assets/f06ecdab-35f6-4a50-b92d-ffc36f833ad4" />
+<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 49 57" src="https://github.com/user-attachments/assets/a81ec219-051e-44c4-9226-ee3c893fc1f2" />
+<img width="222" height="445" alt="Screenshot 2026-01-22 at 16 24 42" src="https://github.com/user-attachments/assets/b00cc186-bd54-4bb1-9e58-10cc9ae13677" />
 
 
 ## Архитектура
