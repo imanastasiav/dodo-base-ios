@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "BavarianSausages.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

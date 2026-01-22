@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "JuicyPineapples.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
