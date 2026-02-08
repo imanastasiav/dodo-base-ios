@@ -1,0 +1,199 @@
+{
+  "uuid": "aba2c513-4d3c-4b98-9b4b-269c0fcfd9fa",
+  "lastMigration": 33,
+  "name": "Dodo",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3003,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "ec47816c-c9ed-4dec-aee8-b581e1b76b58",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "banners",
+      "responses": [
+        {
+          "uuid": "45cbe347-ebaa-49d2-99e8-f752de2e96a7",
+          "body": "[\n  {\n    \"name\": \"Гавайская\",\n    \"detail\": \"Тесто, Cыр, Буженина\",\n    \"price\": 690,\n    \"image\": \"hawaii\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Маргарита\",\n    \"detail\": \"Тесто, Cыр, Колбаска\",\n    \"price\": 590,\n    \"image\": \"margarita\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Пепперони\",\n    \"detail\": \"Тесто, Cыр, Перец, \\nТомат, Лук\",\n    \"price\": 690,\n    \"image\": \"pepperoni\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Гавайская\",\n    \"detail\": \"Тесто, Cыр, Буженина\",\n    \"price\": 590,\n    \"image\": \"hawaii\",\n    \"type\": \"pizza\"\n  }\n]\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "d570ab2f-8bb2-42fc-a1c1-df943c9365a1",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "products",
+      "responses": [
+        {
+          "uuid": "5e73548c-0754-40e4-8c3f-ae327a4056c9",
+          "body": "[\n  {\n    \"name\": \"Маргарита\",\n    \"detail\": \"Тесто, Cыр, Колбаска\",\n    \"price\": 590,\n    \"image\": \"margarita\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Гавайская\",\n    \"detail\": \"Тесто, Cыр, Буженина, Тесто, Cыр, Колбаска\",\n    \"price\": 690,\n    \"image\": \"hawaii\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Маргарита\",\n    \"detail\": \"Тесто, Cыр, Колбаска\",\n    \"price\": 690,\n    \"image\": \"margarita\",\n    \"type\": \"pizza\"\n  },\n  {\n    \"name\": \"Пепперони\",\n    \"detail\": \"Тесто, Cыр, Перец, \\\\nТомат, Лук\",\n    \"price\": 690,\n    \"image\": \"pepperoni\",\n    \"type\": \"pizza\"\n  }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "9f923bac-142c-4c55-9e27-7948b1c56502",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "categories",
+      "responses": [
+        {
+          "uuid": "7a40a974-8fe7-4335-a6a1-8189d322b140",
+          "body": "[\n  { \"name\": \"Комбо\" },\n  { \"name\": \"Пиццы\" },\n  { \"name\": \"Римские пиццы\" },\n  { \"name\": \"Закуски\" },\n  { \"name\": \"Кофе\" },\n  { \"name\": \"Напитки\" },\n  { \"name\": \"Коктейли\" },\n  { \"name\": \"Десерты\" },\n  { \"name\": \"Соусы\" },\n  { \"name\": \"Другие товары\" }\n]",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    },
+    {
+      "uuid": "af373707-91eb-41ab-a011-13d79cbdde2b",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "stories",
+      "responses": [
+        {
+          "uuid": "ff29f7a7-676e-4919-b4e5-d572af3d112b",
+          "body": "[\n  {\n    \"id\": 1,\n    \"imageName\": \"story1\"\n  },\n  {\n    \"id\": 2,\n    \"imageName\": \"story2\"\n  },\n  {\n    \"id\": 3,\n    \"imageName\": \"story3\"\n  },\n  {\n    \"id\": 4,\n    \"imageName\": \"story4\"\n  },\n  {\n    \"id\": 5,\n    \"imageName\": \"story5\"\n  },\n  {\n    \"id\": 6,\n    \"imageName\": \"story6\"\n  },\n  {\n    \"id\": 7,\n    \"imageName\": \"story7\"\n  },\n  {\n    \"id\": 8,\n    \"imageName\": \"story8\"\n  }\n]\n",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id",
+          "callbacks": []
+        }
+      ],
+      "responseMode": null,
+      "streamingMode": null,
+      "streamingInterval": 0
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "ec47816c-c9ed-4dec-aee8-b581e1b76b58"
+    },
+    {
+      "type": "route",
+      "uuid": "d570ab2f-8bb2-42fc-a1c1-df943c9365a1"
+    },
+    {
+      "type": "route",
+      "uuid": "9f923bac-142c-4c55-9e27-7948b1c56502"
+    },
+    {
+      "type": "route",
+      "uuid": "af373707-91eb-41ab-a011-13d79cbdde2b"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "*"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": [],
+  "callbacks": []
+}
